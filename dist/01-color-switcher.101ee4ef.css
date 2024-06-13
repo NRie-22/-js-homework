@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212121;
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.color-btn {
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 2px solid #bbb;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+.flatpickr-input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.timer-btn {
+  height: 30px;
+  font-size: 20px;
+}
+
+.timer {
+  gap: 15px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.field {
+  text-align: center;
+  display: inline-block;
+}
+
+.value {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  display: block;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/*# sourceMappingURL=01-color-switcher.101ee4ef.css.map */
